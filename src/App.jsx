@@ -232,7 +232,7 @@ const handleSubmit = async (e) => {
           <div id='project-1' className='w-full mt-12 flex flex-col gap-5 md:flex-row items-center justify-between  relative'>
             <div className='absolute h-px left-1/5 right-1/2 bg-[#459bd5] hidden md:block'></div>
             <div className='absolute z-10 w-3 h-3 border-3 border-[#459bd5] bg-[var(--page-bg)] rounded-full left-1/2 -translate-x-1/2 hidden md:block'></div>
-            <a className='w-[70%] h-[50%] md:w-[49%] md:h-full flex flex-col justify-center ' href="https://github.com/ankushsantra42/genAI-fullstack-job-preparation" target='_blank'>
+            <a className='w-[90%] h-[50%] md:w-[49%] md:h-full flex flex-col justify-center ' href="https://github.com/ankushsantra42/genAI-fullstack-job-preparation" target='_blank'>
               <div className='w-full md:w-[50%] min-w-60 h-full max-h-64 relative group hover:scale-105 transition ease-in duration-200'>
                 <img className='w-full mr-auto h-full object-cover relative z-3' src={Job} alt="" />
                 <span className='flex  gap-2 bg-[#fc815c] w-fit px-3 py-2 rounded absolute top-2 left-1/2 -translate-x-1/2 after:h-4 after:w-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 group-hover:-top-14 transition-all ease-jump duration-200'>
@@ -369,7 +369,7 @@ const handleSubmit = async (e) => {
                 </span>
               </div>
             </a> */}
-            <a className='w-[70%] h-[50%] md:w-[49%] md:h-full flex flex-col justify-center ' href="https://chat-app-main-plly.onrender.com/" target='_blank'>
+            <a className='w-[90%] h-[50%] md:w-[49%] md:h-full flex flex-col justify-center ' href="https://chat-app-main-plly.onrender.com/" target='_blank'>
               <div className='w-full md:w-[50%] min-w-60 h-full max-h-64 relative ml-auto group hover:scale-105 transition ease-in duration-200'>
                 <img className='w-full ml-auto h-full  object-contain  relative z-3' src={ChatApp} alt="" />
                 <span className='flex gap-2 bg-[#fc815c] w-fit px-3 py-2 rounded absolute top-1/2 left-1/2 -translate-x-1/2 after:h-4 after:w-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 group-hover:-top-14 transition-all ease-jump duration-200'>
@@ -383,7 +383,7 @@ const handleSubmit = async (e) => {
           <div id='project-3' className='w-full mt-12 flex flex-col gap-5 md:flex-row items-center justify-between  relative'>
             <div className='absolute h-px left-1/5 right-1/2 bg-[#459bd5] hidden md:block'></div>
             <div className='absolute z-10 w-3 h-3 border-3 border-[#459bd5] bg-[var(--page-bg)] rounded-full left-1/2 -translate-x-1/2 hidden md:block'></div>
-            <a className='w-[70%] h-[50%] md:w-[49%] md:h-full flex flex-col justify-center ' href="#">
+            <a className='w-[90%] h-[50%] md:w-[49%] md:h-full flex flex-col justify-center ' href="https://github.com/ankushsantra42/E-commerce">
               <div className='w-full md:w-[50%] min-w-60 h-full max-h-64 relative group hover:scale-105 transition ease-in duration-200'>
                 <img className='w-full mr-auto h-full object-cover relative z-3' src={Ecommerce} alt="" />
                 <span className='flex  gap-2 bg-[#fc815c] w-fit px-3 py-2 rounded absolute top-2 left-1/2 -translate-x-1/2 after:h-4 after:w-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 group-hover:-top-14 transition-all ease-jump duration-200'>

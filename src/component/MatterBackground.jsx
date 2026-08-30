@@ -35,7 +35,7 @@ function MatterBackground() {
     const ATTRACTION_FORCE = 0.000009;
 
     // Extra force when bubbles are far from the cluster
-    const CLUSTER_PULL = 0.000015;
+    const CLUSTER_PULL = 0.000029;
 
     // Bubbles inside this distance are allowed
     // to move naturally and collide

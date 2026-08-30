@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "@remixicon/react": "^4.9.0",
+    "@tailwindcss/vite": "^4.3.3",
     "matter-attractors": "^0.1.6",
     "matter-js": "^0.20.0",
     "matter-wrap": "^0.2.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "tailwindcss": "^4.3.3",
     "vite-plugin-svgr": "^5.2.0"
   },
   "devDependencies": {

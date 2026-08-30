@@ -74,19 +74,51 @@ function App() {
   //   console.log(e.target);
   // };
 
+// const handleSubmit = async (e) => {
+//   e.preventDefault();
+
+//   const formData = new FormData(e.target);
+
+//   try {
+//     await fetch("/", {
+//       method: "POST",
+//       headers: {
+//         "Content-Type": "application/x-www-form-urlencoded",
+//       },
+//       body: new URLSearchParams(formData).toString(),
+//     });
+
+//     alert("Message sent successfully!");
+
+//     setFormData({
+//       name: "",
+//       email: "",
+//       message: "",
+//     });
+//   } catch (error) {
+//     console.error(error);
+//     alert("Failed to send message.");
+//   }
+// };
+
 const handleSubmit = async (e) => {
   e.preventDefault();
 
-  const formData = new FormData(e.target);
+  const form = e.target;
+  const data = new FormData(form);
 
   try {
-    await fetch("/", {
+    const response = await fetch("/", {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
       },
-      body: new URLSearchParams(formData).toString(),
+      body: new URLSearchParams(data).toString(),
     });
+
+    if (!response.ok) {
+      throw new Error(`Form submission failed: ${response.status}`);
+    }
 
     alert("Message sent successfully!");
 
